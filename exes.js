@@ -1,4 +1,5 @@
 
+
 function XO(str) {
   var xcount = 0;
   var ocount = 0;
@@ -22,12 +23,14 @@ function XO(str) {
       ocount = ocount + 1;
       // console.log(`current O-Total is ${ocount}`)
     }
-    console.log(`xcount currently ${xcount} ocount currently ${ocount}`);
+//     console.log(`xcount currently ${xcount} ocount currently ${ocount}`);
     if (xcount === ocount) {
       console.log(true);
+      return true;
       } else 
       {
         console.log(false);
+        return false;
       }
              
   }
